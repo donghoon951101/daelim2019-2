@@ -1,0 +1,139 @@
+/*
+ * main.css v0.2.0
+ * Update: 2019.09.27
+ * Author: Donghun.Jeong
+ */
+
+ /* main menu */
+ul {
+  background: rgb(49, 49, 49);
+  height: 30px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 0px 8px;
+  width: 100%
+}
+ul li {
+  float: left;
+  margin-right: 0px
+}					
+ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none
+}
+
+/* Home Title */
+.home-title {
+  color: rgb(159, 185, 255);
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+/* article background */
+.article-bg {
+  background-color: rgb(104, 104, 175);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 300px;
+  padding: 15px;
+}
+.article-2nd-bg {
+  background-color:rgb(49, 49, 49);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 300px;
+  padding: 15px;
+}
+
+.image-cropper-50{
+  height: 200px;
+  margin: 15px;
+  width: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+  border-radius: 50%;
+}
+.image-cropper-25 {
+  height: 200px;
+  margin: 15px;
+  width: 200px;
+  -webkit-border-radius: 25%;
+  -moz-border-radius:25%;
+  -ms-border-radius:25%;
+  -o-border-radius:25%;
+  border-radius: 25%;
+
+}
+.image-cropper-15{
+  height: 200px;
+  margin: 15px;
+  width: 200px;
+  -webkit-border-radius: 15%;
+  -moz-border-radius:15%;
+  -ms-border-radius:15%;
+  -o-border-radius:15%;
+  border-radius: 15%;
+
+}
+.article-3nd-bg {
+  background-color:rgb(49, 49, 49);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 600px;
+  padding: 15px;
+}
+.article-4nd-bg {
+  background-color:rgb(122, 17, 17);
+  color: rgb(48, 8, 85);
+  text-align: center;
+  height: 500px;
+  padding: 15px;
+}
+table{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(90deg, #3498db 50%, #ffffff 50%);
+}
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #3498db;
+  font-size: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+p::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-split);
+  width: 50%;
+  color: #fff;
+  overflow: hidden;
+}
+/* margin, padding, border test */
+.box-test {
+  background-color: brown;
+  display: inline-block;
+  border: 10px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 20%;
+  height: 50%;
+}

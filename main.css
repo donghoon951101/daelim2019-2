@@ -10,12 +10,12 @@ ul {
   height: 30px;
   list-style: none;
   margin: 0px;
-  padding: 15px 10px 8px;
+  padding: 15px 0px 8px;
   width: 100%
 }
 ul li {
   float: left;
-  margin-right: 10px
+  margin-right: 0px
 }					
 ul li a {
   color: rgb(255, 255, 255);
@@ -80,8 +80,53 @@ ul li a {
   border-radius: 15%;
 
 }
+.article-3nd-bg {
+  background-color:rgb(49, 49, 49);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 600px;
+  padding: 15px;
+}
+.article-4nd-bg {
+  background-color:rgb(122, 17, 17);
+  color: rgb(48, 8, 85);
+  text-align: center;
+  height: 500px;
+  padding: 15px;
+}
+table{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
 
-
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(90deg, #3498db 50%, #ffffff 50%);
+}
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #3498db;
+  font-size: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+p::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-split);
+  width: 50%;
+  color: #fff;
+  overflow: hidden;
+}
 /* margin, padding, border test */
 .box-test {
   background-color: brown;

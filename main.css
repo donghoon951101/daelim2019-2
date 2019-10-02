@@ -19,10 +19,12 @@ ul li {
 }					
 ul li a {
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 20px; 
   font-weight: bold;
-  text-decoration: none
+  text-decoration: none;
+  
 }
+
 
 /* Home Title */
 .home-title {
@@ -126,6 +128,73 @@ p::before {
   width: 50%;
   color: #fff;
   overflow: hidden;
+}
+.grid_container {
+  background-color: royalblue;
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid_container2 {
+  background-color: red;
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid_container3 {
+  background-color: black;
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid_item {
+  background-color: rosybrown;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.item1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+.item2 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.grid_item2 {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.grid_item3 {
+  background-color: gray;
+  font-size:20px; color:white;
+  padding: 20px;
+  text-align: center;
+}
+  
+.item3 {
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+
+.item10 {
+  grid-column: 2 / span 2;
+  grid-row: 5;
+}
+.item4{
+  grid-column: 1 / span 10;
+  grid-row: 1 / span 30;
+}
+
+.menu-font{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
 }
 /* margin, padding, border test */
 .box-test {

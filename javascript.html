@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript TEST</title>
+</head>
+<body>
+  <script>
+     function calltentimes(callback){
+         for(var i = 0; i < 10; i++){
+             callback();
+         }
+     }
+     var callback = function (){
+         alert("함수 호출");
+     };
+     calltentimes(callback);
+  </script>
+</body>
+</html>
